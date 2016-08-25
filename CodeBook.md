@@ -1,0 +1,90 @@
+# Codebook
+
+Indicates the contents, structure, and layout of data collection.
+
+## Identifiers
+
++ *subject*: ID of test subject
++ *activity*: type of activity performed at the moment of taking the measure
+
+## Measurements
+
++ *timebodyaccmeanx*
++ *timebodyaccmeany*
++ *timebodyaccmeanz*
++ *timebodyaccstdx*
++ *timebodyaccstdy*
++ *timebodyaccstdz*
++ *timegravityaccmeanx*
++ *timegravityaccmeany*
++ *timegravityaccmeanz*
++ *timegravityaccstdx*
++ *timegravityaccstdy*
++ *timegravityaccstdz*
++ *timebodyaccjerkmeanx*
++ *timebodyaccjerkmeany*
++ *timebodyaccjerkmeanz*
++ *timebodyaccjerkstdx*
++ *timebodyaccjerkstdy*
++ *timebodyaccjerkstdz*
++ *timebodygyromeanx*
++ *timebodygyromeany*
++ *timebodygyromeanz*
++ *timebodygyrostdx*
++ *timebodygyrostdy*
++ *timebodygyrostdz*
++ *timebodygyrojerkmeanx*
++ *timebodygyrojerkmeany*
++ *timebodygyrojerkmeanz*
++ *timebodygyrojerkstdx*
++ *timebodygyrojerkstdy*
++ *timebodygyrojerkstdz*
++ *timebodyaccmagmean*
++ *timebodyaccmagstd*
++ *timegravityaccmagmean*
++ *timegravityaccmagstd*
++ *timebodyaccjerkmagmean*
++ *timebodyaccjerkmagstd*
++ *timebodygyromagmean*
++ *timebodygyromagstd*
++ *timebodygyrojerkmagmean*
++ *timebodygyrojerkmagstd*
++ *freqbodyaccmeanx*
++ *freqbodyaccmeany*
++ *freqbodyaccmeanz*
++ *freqbodyaccstdx*
++ *freqbodyaccstdy*
++ *freqbodyaccstdz*
++ *freqbodyaccmeanfreqx*
++ *freqbodyaccmeanfreqy*
++ *freqbodyaccmeanfreqz*
++ *freqbodyaccjerkmeanx*
++ *freqbodyaccjerkmeany*
++ *freqbodyaccjerkmeanz*
++ *freqbodyaccjerkstdx*
++ *freqbodyaccjerkstdy*
++ *freqbodyaccjerkstdz*
++ *freqbodyaccjerkmeanfreqx*
++ *freqbodyaccjerkmeanfreqy*
++ *freqbodyaccjerkmeanfreqz*
++ *freqbodygyromeanx*
++ *freqbodygyromeany*
++ *freqbodygyromeanz*
++ *freqbodygyrostdx*
++ *freqbodygyrostdy*
++ *freqbodygyrostdz*
++ *freqbodygyromeanfreq*
++ *freqbodygyromeanfreqy*
++ *freqbodygyromeanfreqz*
++ *freqbodyaccmagmean*
++ *freqbodyaccmagstd*
++ *freqbodyaccmagmeanfreq*
++ *freqbodybodyaccjerkmagmean*
++ *freqbodybodyaccjerkmagstd*
++ *freqbodybodyaccjerkmagmeanfreq*
++ *freqbodybodygyromagmean*
++ *freqbodybodygyromagstd*
++ *freqbodybodygyromagmeanfreq*
++ *freqbodybodygyrojerkmagmean*
++ *freqbodybodygyrojerkmagstd*
++ *freqbodybodygyrojerkmagmeanfreq*
