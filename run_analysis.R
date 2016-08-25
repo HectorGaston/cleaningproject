@@ -21,7 +21,8 @@ activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 activity_labels[,2] <- as.character(activity_labels[,2])
 
 # Extract only names of measurements on the mean and standard deviation
-# for each measurement,then discard - separator and lower characters
+# for each measurement,then discard - separator, lower characters
+# and expand prefixes
 names_selected_features <- grep(".*mean.*|.*std.*", features[,2])
 names_selected_features <- features[names_selected_features,2]
 names_selected_features <- gsub('[()-]', '', names_selected_features) %>% tolower()
@@ -68,3 +69,4 @@ df.melted <- melt(df, id = c("subject", "activity"))
 df.mean <- dcast(df.melted, subject + activity ~ variable, mean)
 
 write.csv(x = df.mean, file = "tidy_data.csv", row.names = F)
+write.table(x = df.mean, file = "tidy_data.txt", row.names = F)
